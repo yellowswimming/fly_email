@@ -7,6 +7,7 @@ https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0"
          metadata-complete="true">
 
+
 <error-page>
     <error-code>404</error-code>
     <location>/error/404.jpeg</location>
