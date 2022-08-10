@@ -1,0 +1,145 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../image/免抠图/7.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top:-150px;
+    padding-bottom: 50px;
+    width: 352px;
+}
+
+.header img{
+    margin-top: -30px;
+    position: absolute;
+    top:29px;
+}
+.box h2{
+    margin-left: 60px;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.3);
+    -webkit-background-clip: text;
+    font-weight: bold;
+    background-image: url(/image/免抠图/水波.jpg);
+    animation: wave 30s linear infinite;
+
+}
+@keyframes wave{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 1000px 0;
+    }
+}
+.box{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 350px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    position: relative;
+    top:40px;
+}
+.box .input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 10px;
+}
+.box .input-box > label{
+    color: rgba(255, 255,5, 0.9);
+    margin-bottom: 5px;
+}
+.box >h2{
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+.box .input-box > input{
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 15px;
+    height: 35px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    transition: 0.2s;
+    outline: none;
+    padding: 0 10px;
+}
+.box .input-box > input:focus{
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.box .btn-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 250px;
+}
+.box .btn-box > a{
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 14px;
+    color: rgba(61, 4, 118, 0.545);
+    width: 250px;
+    text-align: end;
+
+
+}
+.box .btn-box > a:hover{
+   color: rgba(255, 255, 255, 1);
+    
+}
+
+.box .btn-box > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.box .btn-box > div > button{
+    width: 130px;
+    height: 35px;
+    border: 1px solid rgba(89, 79, 67, 0.6);
+    background:rgba(164, 224, 214, 0.5);
+    border-radius: 5px;
+    transition: 0.2s;
+    font-size: 15px;
+}
+.box .btn-box > div > button:nth-of-type(2){
+   margin-left: 5px;
+}
+.box .btn-box > div > button:hover{
+    
+    border: 1px solid rgba(217, 134, 33, 0.6);
+    background:rgba(23, 27, 26, 0.5);
+  
+}

@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "558147",
+      "name": "收件箱",
+      "font_class": "shoujianxiang",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "595424",
+      "name": "社区",
+      "font_class": "shequ",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "4784078",
+      "name": "草稿箱",
+      "font_class": "caogaoxiang",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "7762176",
+      "name": "注销",
+      "font_class": "ziyuanxhdpi",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "16562604",
+      "name": "写信",
+      "font_class": "xiexin",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "18192045",
+      "name": "已发送",
+      "font_class": "yifasong",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "30178399",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "100da",
+      "unicode_decimal": 65754
+    },
+    {
+      "icon_id": "30178407",
+      "name": "清除",
+      "font_class": "qingchu",
+      "unicode": "100db",
+      "unicode_decimal": 65755
+    },
+    {
+      "icon_id": "30178418",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "100dc",
+      "unicode_decimal": 65756
+    }
+  ]
+}
