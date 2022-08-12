@@ -3,8 +3,8 @@
 <html>
 <head>
     <title>飞乘</title>
-    <link rel="stylesheet" href="../lib2/style.css">
-    <link rel="stylesheet" href="../lib2/fontclass/iconfont.css">
+    <link rel="stylesheet" href="../lib/style.css">
+    <link rel="stylesheet" href="../lib/fontclass/iconfont.css">
 </head>
 <body>
 

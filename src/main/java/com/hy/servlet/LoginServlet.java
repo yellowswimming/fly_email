@@ -19,9 +19,9 @@ public class LoginServlet extends HttpServlet {
         if(username.equals("20204340")){//登录成功
             System.out.println("yes");
             req.getSession().setAttribute(Constant.USER_SESSION,req.getSession().getId());
-            resp.sendRedirect("/fly_email/sys/index2.jsp");
+            resp.sendRedirect(req.getContextPath()+"/sys/index2.jsp");
         }else{//登录失败
-            resp.sendRedirect("/fly_email/error.jsp");
+            resp.sendRedirect(req.getContextPath()+"/error.jsp");
         }
     }
 

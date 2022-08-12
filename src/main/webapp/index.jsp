@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" href="lib2/styleOuter1.css">
+    <link rel="stylesheet" href="lib/styleOuter1.css">
 </head>
 <body>
 <!-- <img src="/image/免抠图/水波.jpg" alt=""> -->
