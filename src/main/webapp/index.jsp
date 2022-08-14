@@ -10,8 +10,9 @@
     <img src="image/免抠图/鸽子大.png" alt="">
 </div>
 <div class="box">
-    <form action="${pageContext.request.contextPath }/servlet/login" method="get">
+    <form action="${pageContext.request.contextPath }/login.do" method="post">
         <h2>飞乘邮件</h2>
+        <div class="info">${error}</div>
         <div class="input-box">
             <label>账号</label>
             <input type="text" placeholder="用户名" required name="username">

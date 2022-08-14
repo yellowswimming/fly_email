@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+.info{
+    color:red;
+    font-weight: normal;
+}
 body{
     display: flex;
     flex-direction: column;

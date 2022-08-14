@@ -34,6 +34,14 @@ https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
         <url-pattern>/servlet/logout</url-pattern>
     </servlet-mapping>
 
+    <filter>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-class>com.hy.filter.CharacterEncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
     <filter>
         <filter-name>SysFilter</filter-name>
